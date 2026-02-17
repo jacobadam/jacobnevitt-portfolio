@@ -27,7 +27,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          <aside className="sticky top-0 h-screen">Left Column</aside>
+          <main>{children}</main>
+        </div>
       </body>
     </html>
   );
