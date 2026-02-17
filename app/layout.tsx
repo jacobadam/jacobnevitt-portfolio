@@ -28,7 +28,25 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <aside className="sticky top-0 h-screen">Left Column</aside>
+          <aside className="sticky top-0 h-screen">
+            <header>
+              <h1>Jacob Nevitt</h1>
+              <h2>Software Developer</h2>
+              <h3>
+                Bridging the gap between design and functionality one line of
+                code at a time
+              </h3>
+            </header>
+
+            <nav>
+              <ul>
+                <li>About</li>
+                <li>Technologies</li>
+                <li>Experience</li>
+                <li>Projects</li>
+              </ul>
+            </nav>
+          </aside>
           <main>{children}</main>
         </div>
       </body>
