@@ -41,7 +41,7 @@ export default function RootLayout({
             <nav>
               <ul>
                 <li>About</li>
-                <li>Technologies</li>
+                <li>Tech Stack</li>
                 <li>Experience</li>
                 <li>Projects</li>
               </ul>
