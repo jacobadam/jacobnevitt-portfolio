@@ -31,9 +31,9 @@ export default function RootLayout({
       >
         <div className="grid grid-cols-1 md:grid-cols-2">
           <aside className="sticky top-0 h-screen">
-            <header>
-              <h1>Jacob Nevitt</h1>
-              <h2>Software Developer</h2>
+            <header className="flex flex-col justify-center items-center max-w-3xl py-20">
+              <h1 className="text-4xl mb-2">Jacob Nevitt</h1>
+              <h2 className="text-2xl mb-2">Software Developer</h2>
               <h3>
                 Bridging the gap between design and functionality one line of
                 code at a time
@@ -41,7 +41,7 @@ export default function RootLayout({
             </header>
 
             <nav>
-              <ul>
+              <ul className="flex flex-col justify-center items-center max-w-3xl">
                 <li>
                   <Link href="#about">About</Link>
                 </li>
