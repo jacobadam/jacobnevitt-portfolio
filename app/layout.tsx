@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-import Link from "next/link";
+import SideNav from "./components/ui/side-nav";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,33 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <aside className="sticky top-0 h-screen">
-            <header className="flex flex-col justify-center items-center max-w-3xl py-20">
-              <h1 className="text-4xl mb-2">Jacob Nevitt</h1>
-              <h2 className="text-2xl mb-2">Software Developer</h2>
-              <h3>
-                Bridging the gap between design and functionality one line of
-                code at a time
-              </h3>
-            </header>
-
-            <nav>
-              <ul className="flex flex-col justify-center items-center max-w-3xl">
-                <li>
-                  <Link href="#about">About</Link>
-                </li>
-                <li>
-                  <Link href="#tech-stack">Tech Stack</Link>
-                </li>
-                <li>
-                  <Link href="#experience">Experience</Link>
-                </li>
-                <li>
-                  <Link href="#projects">Projects</Link>
-                </li>
-              </ul>
-            </nav>
-          </aside>
+          <SideNav />
           <main>{children}</main>
         </div>
       </body>
