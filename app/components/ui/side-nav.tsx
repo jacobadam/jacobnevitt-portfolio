@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useEffectEvent, useState } from "react";
 import Link from "next/link";
 
 import { navLink } from "@/types/nav.types";
@@ -10,14 +10,26 @@ interface navLinksProps {
 }
 
 export default function SideNav({ navLinks }: navLinksProps) {
-  const [activeSection, setActiveSection] = useState<string>(() => {
-    if (typeof window === "undefined") return "";
-    return window.location.hash.slice(1);
-  });
+  const [activeSection, setActiveSection] = useState<string>("");
 
   const handleClick = (hash: string) => {
     setActiveSection(hash);
   };
+
+  const syncFromHash = useEffectEvent(() => {
+    const id = window.location.hash.slice(1);
+    setActiveSection(id);
+  });
+
+  useEffect(() => {
+    syncFromHash();
+
+    window.addEventListener("hashchange", syncFromHash);
+
+    return () => {
+      window.removeEventListener("hashchange", syncFromHash);
+    };
+  }, []);
 
   return (
     <aside className="sticky top-0 h-screen">
