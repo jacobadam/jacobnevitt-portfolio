@@ -37,12 +37,12 @@ export default function SideNav({ navLinks }: navLinksProps) {
               <Link
                 className="group relative pb-0.5"
                 href={`#${item.href}`}
-                onClick={() => handleClick("about")}
+                onClick={() => handleClick(`${item.href}`)}
               >
                 <span>{item.title}</span>
                 <span
                   className={`${
-                    activeSection === item.title ? "scale-x-100" : "scale-x-0"
+                    activeSection === item.href ? "scale-x-100" : "scale-x-0"
                   } absolute bg-current bottom-0 left-0 w-full h-0.5 origin-left group-hover:scale-x-100 transition-transform duration-700`}
                 ></span>
               </Link>
