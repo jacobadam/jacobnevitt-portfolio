@@ -4,6 +4,7 @@ import "./globals.css";
 
 import { navLink } from "@/types/nav.types";
 import SideNav from "./components/ui/side-nav";
+import { ClientWrapper } from "./components/context/ClientWrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,8 +39,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <SideNav navLinks={navLinks} />
-          <main>{children}</main>
+          <ClientWrapper>
+            <SideNav navLinks={navLinks} />
+            <main>{children}</main>
+          </ClientWrapper>
         </div>
       </body>
     </html>
