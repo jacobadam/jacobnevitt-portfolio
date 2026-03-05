@@ -6,14 +6,13 @@ interface ClientWrapperProps {
   children: ReactNode;
 }
 
-export type isActiveContextType = {
-  isActive: boolean;
-  setIsActive: (isActive: boolean) => void;
+export type activeSectionContextType = {
+  activeSection: string;
+  setActiveSection: (activeSection: string) => void;
 };
 
-export const ClientWrapperContext = createContext<isActiveContextType | null>(
-  null,
-);
+export const ClientWrapperContext =
+  createContext<activeSectionContextType | null>(null);
 
 export const useClientWrapper = () => {
   const clientWrapperContext = useContext(ClientWrapperContext);
@@ -27,10 +26,10 @@ export const useClientWrapper = () => {
 };
 
 export function ClientWrapper({ children }: ClientWrapperProps) {
-  const [isActive, setIsActive] = useState<boolean>(false);
+  const [activeSection, setActiveSection] = useState<string>("");
 
   return (
-    <ClientWrapperContext value={{ isActive, setIsActive }}>
+    <ClientWrapperContext value={{ activeSection, setActiveSection }}>
       {children}
     </ClientWrapperContext>
   );
