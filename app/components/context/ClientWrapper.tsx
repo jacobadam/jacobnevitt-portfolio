@@ -6,21 +6,20 @@ interface ClientWrapperProps {
   children: ReactNode;
 }
 
-export type activeSectionContextType = {
+export type ActiveSectionContextValue = {
   activeSection: string;
   setActiveSection: (activeSection: string) => void;
 };
 
-export const ClientWrapperContext =
-  createContext<activeSectionContextType | null>(null);
+const ClientWrapperContext = createContext<ActiveSectionContextValue | null>(
+  null,
+);
 
 export const useClientWrapper = () => {
   const clientWrapperContext = useContext(ClientWrapperContext);
 
   if (!clientWrapperContext) {
-    throw new Error(
-      "useClientWrapper must be used within ClientWrapperProvider",
-    );
+    throw new Error("useClientWrapper must be used within ClientWrapper");
   }
   return clientWrapperContext;
 };
