@@ -2,15 +2,19 @@
 
 import { useEffect, useEffectEvent, useState } from "react";
 import Link from "next/link";
-
 import { navLink } from "@/types/nav.types";
+import { useClientWrapper } from "@/app/components/context/ClientWrapper";
 
-interface navLinksProps {
+interface NavLinksProps {
   navLinks: navLink[];
 }
 
-export default function SideNav({ navLinks }: navLinksProps) {
+export default function SideNav({ navLinks }: NavLinksProps) {
   const [activeSection, setActiveSection] = useState<string>("");
+
+  const { isActive, setIsActive } = useClientWrapper();
+
+  console.log(isActive, "inside Sidenav");
 
   const handleClick = (hash: string) => {
     setActiveSection(hash);
@@ -31,6 +35,10 @@ export default function SideNav({ navLinks }: navLinksProps) {
     };
   }, []);
 
+  const trueOrFalse = () => {
+    return isActive ? setIsActive(false) : setIsActive(true);
+  };
+
   return (
     <aside className="sticky top-0 h-screen">
       <header className="flex flex-col justify-center items-center max-w-3xl py-20">
@@ -40,6 +48,7 @@ export default function SideNav({ navLinks }: navLinksProps) {
           Bridging the gap between design and functionality one line of code at
           a time
         </h3>
+        <button onClick={trueOrFalse}>CLICK ME!!!!</button>
       </header>
 
       <nav>
