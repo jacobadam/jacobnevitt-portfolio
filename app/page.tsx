@@ -1,24 +1,18 @@
 "use client";
-// import { useActiveSection } from "@/app/hooks/useActiveSection";
+
+import { useIntersectionObserver } from "./hooks/useIntersectionObserver";
 
 import { useClientWrapper } from "@/app/components/context/ClientWrapper";
 
 export default function Home() {
-  // const activeSection = useActiveSection();
+  const { setActiveSection } = useClientWrapper();
 
-  const { isActive, setIsActive } = useClientWrapper();
-
-  console.log(isActive, "inside Page");
-
-  const trueOrFalse = () => {
-    return isActive ? setIsActive(false) : setIsActive(true);
-  };
+  useIntersectionObserver(setActiveSection);
 
   return (
     <>
       <section id="about">
         <div>
-          <button onClick={trueOrFalse}>CLICK ME!!!!</button>
           AboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAbout
           AboutAboutAboutAboutAboutAboutAbout
           AboutAboutAboutAboutAboutAboutAbout
@@ -160,6 +154,82 @@ export default function Home() {
           ExperienceExperienceExperienceExperienceExperience Experience
           Experience Experience Experience Experience Experience Experience
           Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
+          ExperienceExperienceExperienceExperienceExperience Experience
+          Experience Experience Experience Experience Experience Experience
+          Experience Experience Experience Experience Experience Experience
         </div>
       </section>
       <section id="projects">
@@ -173,6 +243,24 @@ export default function Home() {
           ProjectsProjectsProjectsProjectsProjectsProjects Projects Projects
           Projects Projects Projects Projects Projects Projects Projects
           Projects Projects Projects Projects Projects Projects
+          ProjectsProjectsProjectsProjectsProjectsProjects Projects Projects
+          Projects Projects Projects Projects Projects Projects Projects
+          Projects Projects Projects Projects Projects Projects
+          ProjectsProjectsProjectsProjectsProjectsProjects Projects Projects
+          Projects Projects Projects Projects Projects Projects Projects
+          Projects Projects Projects Projects Projects Projects
+          ProjectsProjectsProjectsProjectsProjectsProjects Projects Projects
+          Projects Projects Projects Projects Projects Projects Projects
+          Projects Projects Projects Projects Projects Projects
+          ProjectsProjectsProjectsProjectsProjectsProjects Projects Projects
+          Projects Projects Projects Projects Projects Projects Projects
+          Projects Projects Projects Projects Projects Projects
+          ProjectsProjectsProjectsProjectsProjectsProjects Projects Projects
+          Projects Projects Projects Projects Projects Projects Projects
+          Projects Projects Projects Projects Projects Projects
+          ProjectsProjectsProjectsProjectsProjectsProjects Projects Projects
+          Projects Projects Projects Projects Projects Projects ProjectsProjects
+          Projects Projects Projects Projects Projects
           ProjectsProjectsProjectsProjectsProjectsProjects Projects Projects
           Projects Projects Projects Projects Projects Projects Projects
           Projects Projects Projects Projects Projects Projects
