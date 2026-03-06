@@ -39,5 +39,5 @@ export const useIntersectionObserver = (
       observer.observe(section);
     });
     return () => observer.disconnect();
-  }, []);
+  }, [setActiveSection]);
 };
