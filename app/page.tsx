@@ -1,13 +1,13 @@
 "use client";
 
-import { useIntersectionObserver } from "./hooks/useIntersectionObserver";
+import { useActiveSectionObserver } from "@/app/hooks/useActiveSectionObserver";
 
 import { useClientWrapper } from "@/app/components/context/ClientWrapper";
 
 export default function Home() {
   const { setActiveSection } = useClientWrapper();
 
-  useIntersectionObserver(setActiveSection);
+  useActiveSectionObserver(setActiveSection);
 
   return (
     <>
@@ -69,7 +69,7 @@ export default function Home() {
           AboutAboutAboutAboutAboutAboutAbout
         </div>
       </section>
-      <section id="tech-stack">
+      <section id="techStack">
         <div>
           Tech StackTech StackTech StackTech StackTech Stack Tech Stack Tech
           Stack Tech Stack Tech Stack Tech Stack Tech Stack Tech Stack Tech
