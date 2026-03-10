@@ -48,12 +48,18 @@ export const useActiveSectionObserver = (
         }
       });
 
-      // if (visibleSections.length > 0) {
-      //   const mostVisibleSection = visibleSections.reduce((prev, current) =>
-      //     prev.intersectionRatio > current.intersectionRatio ? prev : current,
-      //   );
-      //   setActiveSection(mostVisibleSection.target.id);
-      // }
+      const sectionLookupTableArray = Object.values(sectionLookupTable);
+
+      const activeSection = sectionLookupTableArray.filter(
+        (section) => section.visible,
+      );
+
+      if (activeSection.length > 0) {
+        const mostVisable = activeSection.reduce((prev, curr) =>
+          prev.ratio > curr.ratio ? prev : curr,
+        );
+        setActiveSection(mostVisable.id);
+      }
     };
 
     const observer = new IntersectionObserver(
