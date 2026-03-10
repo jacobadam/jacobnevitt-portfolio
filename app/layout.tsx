@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 const navLinks: navLink[] = [
   { href: "about", title: "About", id: 1 },
-  { href: "tech-stack", title: "Tech Stack", id: 2 },
+  { href: "techStack", title: "Tech Stack", id: 2 },
   { href: "experience", title: "Experience", id: 3 },
   { href: "projects", title: "Projects", id: 4 },
 ];
