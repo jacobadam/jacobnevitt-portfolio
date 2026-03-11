@@ -32,7 +32,7 @@ export default function SideNav({ navLinks }: NavLinksProps) {
   }, []);
 
   return (
-    <aside className="md:sticky md:h-screen top-0">
+    <aside className="lg:sticky lg:h-screen top-0">
       <header className="flex flex-col justify-center items-center max-w-3xl py-20">
         <h1 className="text-5xl font-bold mb-2">Jacob Nevitt</h1>
         <h2 className="text-2xl mb-2">Software Developer</h2>
@@ -42,7 +42,7 @@ export default function SideNav({ navLinks }: NavLinksProps) {
         </h3>
       </header>
 
-      <nav className="hidden md:block">
+      <nav className="hidden lg:block">
         <ul className="flex flex-col justify-center items-center max-w-3xl">
           {navLinks.map((item, index) => (
             <li key={index}>
