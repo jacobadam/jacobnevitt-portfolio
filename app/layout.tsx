@@ -41,7 +41,7 @@ export default function RootLayout({
         <div className="grid grid-cols-1 md:grid-cols-2">
           <ClientWrapper>
             <SideNav navLinks={navLinks} />
-            <main>{children}</main>
+            <main className="p-4">{children}</main>
           </ClientWrapper>
         </div>
       </body>
