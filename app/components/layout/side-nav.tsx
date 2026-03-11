@@ -3,7 +3,7 @@
 import { useEffect, useEffectEvent } from "react";
 import Link from "next/link";
 import { navLink } from "@/types/nav.types";
-import { useClientWrapper } from "@/app/components/context/ClientWrapper";
+import { useClientWrapper } from "@/app/components/provider/client-wrapper";
 
 interface NavLinksProps {
   navLinks: navLink[];

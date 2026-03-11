@@ -1,8 +1,8 @@
 "use client";
 
-import { useActiveSectionObserver } from "@/app/hooks/useActiveSectionObserver";
+import { useActiveSectionObserver } from "@/app/hooks/use-active-section-observer";
 
-import { useClientWrapper } from "@/app/components/context/ClientWrapper";
+import { useClientWrapper } from "@/app/components/provider/client-wrapper";
 
 export default function Home() {
   const { setActiveSection } = useClientWrapper();
