@@ -34,7 +34,7 @@ export default function SideNav({ navLinks }: NavLinksProps) {
   return (
     <aside className="lg:sticky lg:h-screen top-0">
       <header className="flex flex-col justify-center items-center max-w-3xl py-20">
-        <h1 className="text-5xl font-bold mb-2">Jacob Nevitt</h1>
+        <h1 className="text-5xl font-bold mb-2 text-secondary">Jacob Nevitt</h1>
         <h2 className="text-2xl mb-2">Software Developer</h2>
         <h3>
           Bridging the gap between design and functionality one line of code at
@@ -45,17 +45,19 @@ export default function SideNav({ navLinks }: NavLinksProps) {
       <nav className="hidden lg:block">
         <ul className="flex flex-col justify-center items-center max-w-3xl">
           {navLinks.map((item, index) => (
-            <li key={index}>
+            <li key={index} className="mb-1">
               <Link
                 className="group relative pb-0.5"
                 href={`#${item.href}`}
                 onClick={() => handleClick(`${item.href}`)}
               >
-                <span>{item.title}</span>
+                <span className="uppercase text-base font-light font-stretch-condensed tracking-wide">
+                  {item.title}
+                </span>
                 <span
                   className={`${
                     activeSection === item.href ? "scale-x-100" : "scale-x-0"
-                  } absolute bg-current bottom-0 left-0 w-full h-0.5 origin-left group-hover:scale-x-100 transition-transform duration-700`}
+                  } absolute bg-secondary bottom-0 left-0 w-full h-0.5 origin-left group-hover:scale-x-100 transition-transform duration-700`}
                 ></span>
               </Link>
             </li>
