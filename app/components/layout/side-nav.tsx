@@ -32,18 +32,15 @@ export default function SideNav({ navLinks }: NavLinksProps) {
   }, []);
 
   return (
-    <aside className="lg:sticky lg:h-screen top-0">
-      <header className="flex flex-col justify-center items-center max-w-3xl py-20">
-        <h1 className="text-5xl font-bold mb-2 text-secondary">Jacob Nevitt</h1>
+    <aside className="lg:sticky lg:h-screen top-0 px-8">
+      <header className="flex flex-col max-w-3xl py-20">
+        <h1 className="text-5xl font-bold mb-4 text-secondary">Jacob Nevitt</h1>
         <h2 className="text-2xl mb-2">Software Developer</h2>
-        <h3>
-          Bridging the gap between design and functionality one line of code at
-          a time
-        </h3>
+        <h3>Bridging the gap between design and functionality</h3>
       </header>
 
       <nav className="hidden lg:block">
-        <ul className="flex flex-col justify-center items-center max-w-3xl">
+        <ul className="flex flex-col max-w-3xl">
           {navLinks.map((item, index) => (
             <li key={index} className="mb-1">
               <Link
