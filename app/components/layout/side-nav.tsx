@@ -51,7 +51,7 @@ export default function SideNav({ navLinks }: NavLinksProps) {
                 href={`#${item.href}`}
                 onClick={() => handleClick(`${item.href}`)}
               >
-                <span className="uppercase text-base font-light font-stretch-condensed tracking-wide">
+                <span className="uppercase text-sm font-light tracking-wide">
                   {item.title}
                 </span>
                 <span
