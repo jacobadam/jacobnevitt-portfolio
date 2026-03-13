@@ -38,7 +38,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="grid grid-cols-1 lg:grid-cols-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 bg-primary">
           <ClientWrapper>
             <SideNav navLinks={navLinks} />
             <main className="p-4">{children}</main>
