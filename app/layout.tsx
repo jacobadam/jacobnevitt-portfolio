@@ -23,9 +23,9 @@ export const metadata: Metadata = {
 
 const navLinks: navLink[] = [
   { href: "about", title: "About", id: 1 },
-  { href: "tech-stack", title: "Tech Stack", id: 2 },
-  { href: "experience", title: "Experience", id: 3 },
-  { href: "projects", title: "Projects", id: 4 },
+  { href: "experience", title: "Experience", id: 2 },
+  { href: "projects", title: "Projects", id: 3 },
+  { href: "tech-stack", title: "Tech Stack", id: 4 },
 ];
 
 export default function RootLayout({
@@ -38,7 +38,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="grid grid-cols-1 lg:grid-cols-2 bg-primary">
+        <div className="grid grid-cols-1 lg:grid-cols-2 bg-primary text-[#cbd5e1]">
           <ClientWrapper>
             <SideNav navLinks={navLinks} />
             <main className="p-8">{children}</main>

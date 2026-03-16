@@ -20,12 +20,7 @@ export default function Home() {
         </h1>
         <AboutSection />
       </section>
-      <section id="tech-stack" className="py-8 space-y-8">
-        <h1 className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 font-semibold text-xl">
-          Tech Stack
-        </h1>
-        <TechStackSection />
-      </section>
+
       <section id="experience" className="py-8 space-y-8">
         <h1 className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 font-semibold text-xl">
           Experience
@@ -37,6 +32,12 @@ export default function Home() {
           Projects
         </h1>
         <ProjectsSection />
+      </section>
+      <section id="tech-stack" className="py-8 space-y-8">
+        <h1 className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 font-semibold text-xl">
+          Tech Stack
+        </h1>
+        <TechStackSection />
       </section>
     </>
   );
