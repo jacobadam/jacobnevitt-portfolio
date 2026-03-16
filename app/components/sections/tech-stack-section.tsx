@@ -7,7 +7,7 @@ import {
 
 export function TechStackSection() {
   return (
-    <div className="rounded-xl hover:bg-white/10 hover:backdrop-blur-md border border-primary hover:border-white/20 shadow-lg px-4 py-4">
+    <div className="rounded-xl hover:bg-white/10 hover:backdrop-blur-md border border-primary hover:border-white/20 shadow-lg md:px-4 md:py-4">
       <div className="flex flex-row gap-12 mb-10">
         <h2 className="flex font-semibold text-xl text-white">Frontend</h2>
         <ul className="flex flex-row flex-wrap gap-4">
