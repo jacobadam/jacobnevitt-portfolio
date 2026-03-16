@@ -1,12 +1,6 @@
-type Experience = {
-  id: number;
-  company: string;
-  title: string;
-  year: string;
-  description: string;
-};
+import { ExperienceType } from "../types/experience.types";
 
-export const ExperienceCardData: Experience[] = [
+export const ExperienceCardData: ExperienceType[] = [
   {
     id: 1,
     company: "Greenhouse Web Designs",
