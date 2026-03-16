@@ -4,7 +4,6 @@ import { useEffect, useEffectEvent } from "react";
 import Link from "next/link";
 import { navLink } from "@/types/nav.types";
 import { useClientWrapper } from "@/app/components/provider/client-wrapper";
-
 interface NavLinksProps {
   navLinks: navLink[];
 }
@@ -32,11 +31,13 @@ export default function SideNav({ navLinks }: NavLinksProps) {
   }, []);
 
   return (
-    <aside className="lg:sticky lg:h-screen top-0 px-8">
-      <header className="flex flex-col max-w-3xl py-20">
-        <h1 className="text-5xl font-bold mb-4 text-secondary">Jacob Nevitt</h1>
-        <h2 className="text-2xl mb-2">Software Developer</h2>
-        <h3>Bridging the gap between design and functionality</h3>
+    <aside className="lg:sticky lg:h-screen top-0 md:px-4">
+      <header className="flex flex-col max-w-3xl pt-4 lg:py-12">
+        <h1 className="text-5xl font-bold mb-3">Jacob Nevitt</h1>
+        <h2 className="text-2xl mb-4">Software Developer</h2>
+        <h3 className="mb-3">
+          Bridging the gap between design and functionality
+        </h3>
       </header>
 
       <nav className="hidden lg:block">
