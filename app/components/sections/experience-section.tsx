@@ -1,3 +1,5 @@
+import { ExperienceCard } from "../ui/experience-card";
+
 export function ExperienceSection() {
-  return <section></section>;
+  return <ExperienceCard />;
 }
