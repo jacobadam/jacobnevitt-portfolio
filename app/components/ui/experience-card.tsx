@@ -1,13 +1,13 @@
 import { ExperienceCardData } from "@/app/data/experience";
-import { ExperienceType } from "@/app/types/experience.types";
+import { Experience } from "@/app/types/experience.types";
 
 export const ExperienceCard = () => {
   return (
     <main>
       <ul>
-        {ExperienceCardData.map((experience: ExperienceType) => (
+        {ExperienceCardData.map((experience: Experience) => (
           <li key={experience.id}>
-            <div className="lg:shadow-lg lg:bg-white/5 md:px-4 md:py-4 rounded-lg hover:bg-white/10 hover:backdrop-blur-md border border-primary hover:border-white/20 mb-12 md:mb-8">
+            <div className="lg:shadow-2xl md:p-4 rounded-lg hover:bg-white/10 hover:backdrop-blur-md border border-primary hover:border-white/20 mb-12 md:mb-8">
               <h2 className="text-lg font-bold tracking-wide mb-2">
                 {experience.company}
               </h2>

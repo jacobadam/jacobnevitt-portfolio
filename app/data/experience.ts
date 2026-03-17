@@ -1,6 +1,6 @@
-import { ExperienceType } from "../types/experience.types";
+import { Experience } from "../types/experience.types";
 
-export const ExperienceCardData: ExperienceType[] = [
+export const ExperienceCardData: Experience[] = [
   {
     id: 1,
     company: "Greenhouse Web Designs",
