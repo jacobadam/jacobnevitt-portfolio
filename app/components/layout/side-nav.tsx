@@ -49,7 +49,13 @@ export default function SideNav({ navLinks }: NavLinksProps) {
                 href={`#${item.href}`}
                 onClick={() => handleClick(`${item.href}`)}
               >
-                <span className="uppercase text-sm font-light tracking-wide">
+                <span
+                  className={`${
+                    activeSection === item.href
+                      ? "text-primary-foreground font-semibold"
+                      : "text-secondary-foreground"
+                  } uppercase text-sm font-light tracking-wide hover:text-primary-foreground hover:font-semibold`}
+                >
                   {item.title}
                 </span>
                 <span
