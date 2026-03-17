@@ -8,8 +8,14 @@ type TechIconProps = {
 export function TechIcon({ name, iconPath }: TechIconProps) {
   return (
     <li className="flex flex-row items-center gap-2">
-      <Image src={iconPath} alt="" width={30} height={30}></Image>
-      <span className="font-semibold">{name}</span>
+      <Image
+        className="group transition-all duration-500 hover:-translate-y-2"
+        src={iconPath}
+        alt=""
+        width={30}
+        height={30}
+      ></Image>
+      <span className="text-secondary-foreground font-semibold">{name}</span>
     </li>
   );
 }
