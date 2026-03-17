@@ -16,7 +16,7 @@ export const ProjectData: Project[] = [
       "GSAP",
       "Node.js",
       "Express.js",
-      "PostgresQl",
+      "PostgreSQL",
       "Socket.IO",
       "Netlify",
       "Heroku",
@@ -52,6 +52,6 @@ export const ProjectData: Project[] = [
     url: "",
     imageUrl: "",
     description: "First version of my portfolio built in Vue.js",
-    technologies: ["Vue.js"],
+    technologies: ["Vue.js", "JavaScript", "SCSS", "tsParticles"],
   },
 ];
