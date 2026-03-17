@@ -1,13 +1,8 @@
-type Project = {
-  name: string;
-  url?: string;
-  imageUrl?: string;
-  description: string;
-  technologies: string[];
-};
+import { Project } from "../types/project.types";
 
 export const ProjectData: Project[] = [
   {
+    id: 1,
     name: "Mood Tracker App",
     url: "https://mood-tracker-app.netlify.app/",
     imageUrl: "",
@@ -28,6 +23,7 @@ export const ProjectData: Project[] = [
     ],
   },
   {
+    id: 2,
     name: "Ice Cream Inventory App",
     url: "",
     imageUrl: "",
@@ -42,6 +38,7 @@ export const ProjectData: Project[] = [
     ],
   },
   {
+    id: 3,
     name: "Freelance Website",
     url: "https://www.greenhousewebdesigns.com/",
     imageUrl: "",
@@ -50,6 +47,7 @@ export const ProjectData: Project[] = [
     technologies: ["Next.js", "JavaScript", "Tailwind CSS", "Motion", "Vercel"],
   },
   {
+    id: 4,
     name: "Portfolio V1",
     url: "",
     imageUrl: "",
