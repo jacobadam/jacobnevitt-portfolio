@@ -1,3 +1,5 @@
+import { ProjectCard } from "../ui/project-card";
+
 export function ProjectsSection() {
-  return <section></section>;
+  return <ProjectCard />;
 }
