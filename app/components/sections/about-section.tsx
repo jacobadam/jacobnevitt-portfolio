@@ -1,6 +1,6 @@
 export function AboutSection() {
   return (
-    <div className="md:px-4 py-4">
+    <>
       <p className="mb-4">
         After graduating from an award-winning coding bootcamp, I worked as a
         frontend developer at{" "}
@@ -48,6 +48,6 @@ export function AboutSection() {
         et nibh congue mollis. Morbi sit amet nibh non augue aliquet venenatis
         id ut sapien.
       </p>
-    </div>
+    </>
   );
 }
