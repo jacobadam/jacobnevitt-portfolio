@@ -6,7 +6,7 @@ type sectionValues = {
   id: sectionId;
 };
 
-const sectionIds = ["about", "tech-stack", "experience", "projects"] as const;
+const sectionIds = ["about", "experience", "projects", "tech-stack"] as const;
 
 type sectionId = (typeof sectionIds)[number];
 
@@ -20,15 +20,15 @@ export const useActiveSectionObserver = (
 
     const observerOptions = {
       root: null,
-      rootMargin: "0px 0px -70% 0px",
+      rootMargin: "-40% 0px -55% 0px",
       threshold: [0, 0.25, 0.5, 0.75, 1],
     };
 
     const sectionLookupTable: sectionLookup = {
       about: { ratio: 0, visible: false, id: "about" },
-      "tech-stack": { ratio: 0, visible: false, id: "tech-stack" },
       experience: { ratio: 0, visible: false, id: "experience" },
       projects: { ratio: 0, visible: false, id: "projects" },
+      "tech-stack": { ratio: 0, visible: false, id: "tech-stack" },
     };
 
     function isSectionId(value: string): value is sectionId {
@@ -53,6 +53,7 @@ export const useActiveSectionObserver = (
       const activeSection = sectionLookupTableArray.filter(
         (section) => section.visible,
       );
+      console.log(activeSection);
 
       if (activeSection.length > 0) {
         const mostVisable = activeSection.reduce((prev, curr) =>
