@@ -6,14 +6,19 @@ export const ProjectCard = () => {
     <ul>
       {ProjectData.map((project: Project) => (
         <li key={project.id}>
-          <div className="lg:shadow-2xl md:p-4 rounded-lg hover:bg-white/10 hover:backdrop-blur-md border border-primary hover:border-white/20 mb-12 md:mb-8">
+          <div className="md:p-4 rounded-lg hover:bg-white/10 hover:backdrop-blur-md border border-primary hover:border-white/20 mb-12 md:mb-0">
             <h2 className="text-lg font-bold tracking-wide mb-2">
               {project.name}
             </h2>
-            <p className="font-medium">{project.description}</p>
+            <p className="font-medium mb-4">{project.description}</p>
             <ul className="flex flex-row gap-2 flex-wrap">
               {project.technologies.map((tech) => (
-                <li key={tech}>{tech}</li>
+                <li
+                  className="text-sm backdrop-blur-md text-secondary bg-secondary-foreground/10 rounded-2xl py-0.5 px-2"
+                  key={tech}
+                >
+                  {tech}
+                </li>
               ))}
             </ul>
           </div>
