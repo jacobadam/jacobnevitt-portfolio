@@ -13,6 +13,8 @@
 
   --color-primary: #15213b;
   --color-secondary: #0eaaed;
+  --color-primary-foreground: #cbd5e1;
+  --color-secondary-foreground: #94a3b8;
 }
 
 @media (prefers-color-scheme: dark) {
