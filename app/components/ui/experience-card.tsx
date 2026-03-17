@@ -12,7 +12,9 @@ export const ExperienceCard = () => {
                 {experience.company}
               </h2>
               <h3 className="font-semibold mb-2">{experience.title}</h3>
-              <p className="font-extralight italic mb-2">{experience.year}</p>
+              <p className="font-extralight italic mb-2 text-secondary-foreground">
+                {experience.year}
+              </p>
               <p className="font-medium">{experience.description}</p>
             </div>
           </li>
