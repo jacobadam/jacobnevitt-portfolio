@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jacob Nevitt Portfolio V2",
+  title: "Jacob Nevitt",
   description:
     "Personal portfolio of Jacob Nevitt, a software developer showcasing projects, technical skills, and experience in building modern web applications.",
   icons: {
@@ -42,7 +42,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="grid grid-cols-1 lg:grid-cols-2 bg-primary text-primary-foreground p-4 lg:p-12 mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 bg-primary text-primary-foreground p-4 lg:p-18 mx-auto">
           <ClientWrapper>
             <SideNav navLinks={navLinks} />
             <main>{children}</main>
