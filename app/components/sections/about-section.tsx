@@ -1,6 +1,6 @@
 export function AboutSection() {
   return (
-    <div className="md:px-4">
+    <div className="lg:mt-18 lg:px-4">
       <p className="mb-4">
         After graduating from an award-winning coding bootcamp, I worked as a
         frontend developer at{" "}
