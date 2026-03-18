@@ -32,7 +32,7 @@ export default function SideNav({ navLinks }: NavLinksProps) {
 
   return (
     <aside className="lg:sticky lg:h-screen top-0 md:px-4">
-      <header className="flex flex-col max-w-3xl pt-4 lg:pb-12 lg:pt-4">
+      <header className="flex flex-col max-w-3xl pt-4 lg:pb-12 my-4 lg:my-18">
         <h1 className="text-5xl font-bold mb-2 text-secondary">Jacob Nevitt</h1>
         <h2 className="text-2xl mb-2 text-white">Software Developer</h2>
         <h3 className="mb-4 text-secondary-foreground">
@@ -81,7 +81,27 @@ export default function SideNav({ navLinks }: NavLinksProps) {
             </svg>
           </a>
         </div>
-        <a>View CV</a>
+        <a
+          href=""
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative mt-8 flex w-fit items-center gap-1 rounded-full border border-white/10 bg-white/5 px-5 py-3 font-black text-xs uppercase tracking-widest text-white transition-all hover:bg-white/10 hover:border-white/20 active:scale-95"
+        >
+          <span className="relative z-10">View CV</span>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="h-3.5 w-3.5 transition-transform duration-500 group-hover:-translate-y-1 group-hover:translate-x-1"
+          >
+            <path d="M7 17L17 7M17 7H7M17 7V17" />
+          </svg>
+
+          <div className="absolute inset-0 rounded-full bg-blue-500/0 opacity-0 blur-xl transition-all duration-500 group-hover:bg-blue-500/10 group-hover:opacity-100" />
+        </a>
       </header>
 
       <nav className="hidden lg:block mt-8">
