@@ -7,8 +7,8 @@ import {
 
 export function TechStackSection() {
   return (
-    <div className="rounded-xl hover:bg-white/10 hover:backdrop-blur-md border border-primary hover:border-white/20 shadow-lg md:px-4 md:py-4">
-      <div className="flex flex-row gap-12 mb-10">
+    <>
+      <div className="flex flex-row gap-16 md:p-4 rounded-lg hover:bg-white/10 hover:backdrop-blur-md border border-primary hover:border-white/20 mb-12 md:mb-0">
         <h2 className="flex font-semibold text-sm md:text-base text-white">
           Frontend
         </h2>
@@ -18,7 +18,7 @@ export function TechStackSection() {
           ))}
         </ul>
       </div>
-      <div className="flex flex-row gap-12 mb-10">
+      <div className="flex flex-row gap-16 md:p-4 rounded-lg hover:bg-white/10 hover:backdrop-blur-md border border-primary hover:border-white/20 mb-12 md:mb-0">
         <h2 className="flex font-semibold text-sm md:text-base text-white">
           Backend
         </h2>
@@ -28,9 +28,9 @@ export function TechStackSection() {
           ))}
         </ul>
       </div>
-      <div className="flex flex-row gap-12">
+      <div className="flex flex-row gap-16 md:p-4 rounded-lg hover:bg-white/10 hover:backdrop-blur-md border border-primary hover:border-white/20">
         <h2 className="flex font-semibold text-sm md:text-base text-white">
-          Backend
+          Tools & Platforms
         </h2>
         <ul className="flex flex-row flex-wrap gap-4">
           {toolsAndPlatforms.map((tech, key) => (
@@ -38,6 +38,6 @@ export function TechStackSection() {
           ))}
         </ul>
       </div>
-    </div>
+    </>
   );
 }
