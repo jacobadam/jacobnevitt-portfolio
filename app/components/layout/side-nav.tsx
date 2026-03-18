@@ -33,7 +33,7 @@ export default function SideNav({ navLinks }: NavLinksProps) {
   return (
     <aside className="lg:sticky lg:h-screen top-0 md:px-4">
       <header className="flex flex-col max-w-3xl pt-4 lg:pb-12 lg:pt-4">
-        <h1 className="text-5xl font-bold mb-2 text-white">Jacob Nevitt</h1>
+        <h1 className="text-5xl font-bold mb-2 text-secondary">Jacob Nevitt</h1>
         <h2 className="text-2xl mb-2 text-white">Software Developer</h2>
         <h3 className="mb-4 text-secondary-foreground">
           Bridging the gap between design and functionality
@@ -84,29 +84,31 @@ export default function SideNav({ navLinks }: NavLinksProps) {
         <a>View CV</a>
       </header>
 
-      <nav className="hidden lg:block">
-        <ul className="flex flex-col max-w-3xl">
+      <nav className="hidden lg:block mt-8">
+        <ul className="flex flex-col gap-6">
           {navLinks.map((item, index) => (
-            <li key={index} className="mb-1">
+            <li key={index}>
               <Link
-                className="group relative pb-0.5"
+                className="group flex items-center gap-4 w-fit"
                 href={`#${item.href}`}
                 onClick={() => handleClick(`${item.href}`)}
               >
                 <span
-                  className={`${
+                  className={`h-px transition-all duration-500 ${
                     activeSection === item.href
-                      ? "text-primary-foreground font-semibold"
-                      : "text-secondary-foreground"
-                  } uppercase text-sm font-light tracking-wide hover:text-primary-foreground hover:font-semibold`}
+                      ? "w-16 bg-secondary"
+                      : "w-8 bg-color-primary-foreground group-hover:w-16 group-hover:bg-secondary"
+                  }`}
+                ></span>
+                <span
+                  className={`uppercase text-xs tracking-widest transition-colors duration-300 font-semibold ${
+                    activeSection === item.href
+                      ? "text-secondary"
+                      : "text-color-primary-foreground group-hover:text-secondary"
+                  }`}
                 >
                   {item.title}
                 </span>
-                <span
-                  className={`${
-                    activeSection === item.href ? "scale-x-100" : "scale-x-0"
-                  } absolute bg-secondary bottom-0 left-0 w-full h-0.5 origin-left group-hover:scale-x-100 transition-transform duration-700`}
-                ></span>
               </Link>
             </li>
           ))}
