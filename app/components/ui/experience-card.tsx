@@ -19,6 +19,16 @@ export const ExperienceCard = () => {
             <p className="text-base text-secondary-foreground mb-4">
               {experience.description}
             </p>
+            <ul className="flex flex-row gap-2 flex-wrap">
+              {experience.technologies.map((tech) => (
+                <li
+                  className="text-sm backdrop-blur-md text-amber-500 bg-secondary-foreground/20 rounded-2xl py-0.5 px-2"
+                  key={tech}
+                >
+                  {tech}
+                </li>
+              ))}
+            </ul>
           </div>
         </li>
       ))}
