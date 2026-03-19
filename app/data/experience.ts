@@ -7,7 +7,14 @@ export const ExperienceCardData: Experience[] = [
     title: "Founding Developer",
     year: "2024-Present",
     description:
-      "As the founder of Greenhouse Web Designs, I've partnered with startups and small businesses to design and build high-performing, responsive websites using various front-end technologies such as React, Vue.js, Next.js, Angular and Tailwind CSS. My work includes developing custom components, integrating third-party APIs such as Google Maps, and optimizing SEO and accessibility to achieve top Lighthouse scores. I've also deployed front-end applications to platforms like Vercel and collaborated closely with clients to deliver tailored solutions under tight deadlines.",
+      "Founder of Greenhouse Web Designs, building high-performing, responsive websites for startups and small businesses.",
+    highlights: [
+      "Developed modern frontends using React, Vue, Next.js, Angular, and Tailwind CSS",
+      "Built custom components and integrated third-party APIs including Google Maps",
+      "Optimized SEO and accessibility achieving top Lighthouse scores",
+      "Deployed applications via Vercel and managed end-to-end delivery",
+      "Collaborated closely with clients to deliver tailored solutions under tight deadlines",
+    ],
   },
   {
     id: 2,
@@ -15,7 +22,14 @@ export const ExperienceCardData: Experience[] = [
     title: "Software Developer",
     year: "2021-2024",
     description:
-      "Working as a developer on the Storefront team, I built and maintained features for the company’s e-commerce web application, which serves millions of monthly users, leveraging Vue.js, React, and Next.js. I drove a 12% increase in conversions via a product page redesign and implemented a cross-sell component that generated $30K in sales within its first month. I also spearheaded a performance optimization initiative that improved the Lighthouse score by 25% and reduced load times by 8%, significantly enhancing user experience. Additionally, I optimized product discoverability by enhancing site search with Algolia.",
+      "Frontend developer on the Storefront team building and optimizing features for a high-traffic e-commerce platform.",
+    highlights: [
+      "Increased conversions by 12% through a product page redesign",
+      "Built cross-sell component generating $30K in its first month",
+      "Improved Lighthouse score by 25% and reduced load times by 8%",
+      "Enhanced product discovery by optimizing Algolia-powered search",
+      "Developed features using Vue.js, React, and Next.js for millions of users",
+    ],
   },
   {
     id: 3,
@@ -23,6 +37,13 @@ export const ExperienceCardData: Experience[] = [
     title: "Software Developer",
     year: "2019-2020",
     description:
-      "As a developer on the backend team, I contributed to the platform by developing RESTful APIs in Perl for managing listings, user accounts, and rental transactions. My responsibilities also included participating in the integration of secure payment processing within the payment system using Node.js, including working with the Stripe API. Additionally, I leveraged my full-stack capabilities to support internal teams by building the frontend of an admin tool with Angular for data access, utilizing MySQL to query and analyze customer data, and generating custom reports for marketing mailshots. I also enhanced team efficiency by creating automation scripts in Go for repetitive development tasks, including determining daily stand-up participants based on availability.",
+      "Backend-focused developer contributing to a large rental platform while supporting internal tools with full-stack work.",
+    highlights: [
+      "Developed RESTful APIs in Perl for listings, accounts, and transactions",
+      "Integrated secure payment processing using Node.js and Stripe",
+      "Built internal admin tools with Angular for data access and reporting",
+      "Queried and analyzed customer data using MySQL for marketing insights",
+      "Improved team efficiency by creating automation scripts in Go",
+    ],
   },
 ];
