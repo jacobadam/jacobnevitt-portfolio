@@ -38,7 +38,7 @@ export default function SideNav({ navLinks }: NavLinksProps) {
         <h3 className="mb-4 text-secondary-foreground">
           Bridging the gap between design and functionality
         </h3>
-        <div className="flex flex-row gap-4 mb-4">
+        <div className="flex flex-row gap-4 mb-6">
           <a
             href="https://github.com/jacobadam"
             rel="noopener noreferrer"
@@ -85,7 +85,7 @@ export default function SideNav({ navLinks }: NavLinksProps) {
           href=""
           target="_blank"
           rel="noopener noreferrer"
-          className="group relative mt-8 flex w-fit items-center gap-1 rounded-full border border-white/10 bg-white/5 px-5 py-3 font-black text-xs uppercase tracking-widest text-white transition-all hover:bg-white/10 hover:border-white/20 active:scale-95"
+          className="group relative flex w-fit items-center gap-1 rounded-full border border-white/10 bg-white/5 px-3 py-3 font-black text-xs uppercase tracking-widest text-white transition-all hover:bg-white/10 hover:border-white/20 active:scale-95"
         >
           <span className="relative z-10">View CV</span>
           <svg
