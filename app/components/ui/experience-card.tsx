@@ -2,20 +2,6 @@ import { ExperienceCardData } from "@/app/data/experience";
 import { Experience } from "@/app/types/experience.types";
 
 export const ExperienceCard = () => {
-  function highlightText(text: string, keywords: string[]) {
-    const parts = text.split(new RegExp(`(${keywords.join("|")})`, "gi"));
-
-    return parts.map((part, i) =>
-      keywords.some((k) => k.toLowerCase() === part.toLowerCase()) ? (
-        <span key={i} className="text-white font-bold">
-          {part}
-        </span>
-      ) : (
-        part
-      ),
-    );
-  }
-
   return (
     <ul>
       {ExperienceCardData.map((experience: Experience) => (
@@ -30,8 +16,8 @@ export const ExperienceCard = () => {
             <h3 className="text-lg font-medium text-primary-foreground">
               {experience.title}
             </h3>
-            <p className="text-base text-secondary-foreground">
-              {highlightText(experience.description, experience.keywords)}
+            <p className="text-base text-secondary-foreground mb-4">
+              {experience.description}
             </p>
           </div>
         </li>

@@ -4,5 +4,4 @@ export type Experience = {
   title: string;
   year: string;
   description: string;
-  keywords: string[];
 };
