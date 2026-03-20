@@ -6,7 +6,7 @@ type sectionValues = {
   id: sectionId;
 };
 
-const sectionIds = ["about", "experience", "projects", "tech-stack"] as const;
+const sectionIds = ["about", "projects", "experience", "tech-stack"] as const;
 
 type sectionId = (typeof sectionIds)[number];
 
@@ -26,8 +26,8 @@ export const useActiveSectionObserver = (
 
     const sectionLookupTable: sectionLookup = {
       about: { ratio: 0, visible: false, id: "about" },
-      experience: { ratio: 0, visible: false, id: "experience" },
       projects: { ratio: 0, visible: false, id: "projects" },
+      experience: { ratio: 0, visible: false, id: "experience" },
       "tech-stack": { ratio: 0, visible: false, id: "tech-stack" },
     };
 
