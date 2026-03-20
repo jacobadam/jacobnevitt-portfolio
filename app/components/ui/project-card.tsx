@@ -14,8 +14,8 @@ export const ProjectCard = () => {
         >
           <li key={project.id}>
             <div className="group flex flex-col p-4 mb-4 rounded-lg gap-3 scale-100 hover:scale-101 opacity-80 hover:opacity-100 bg-white/5 hover:bg-white/10 backdrop-blur-xl hover:backdrop-blur-md border border-white/5 hover:border-white/20">
-              <div className="group relative flex w-fit items-center gap-1  transition-all group-hover:text-secondary">
-                <h2 className="text-xl font-bold tracking-wide mb-2">
+              <div className="group relative flex w-fit items-center gap-1 transition-all group-hover:text-secondary mb-2">
+                <h2 className="text-lg lg:text-xl font-bold tracking-wide">
                   {project.name}
                 </h2>
                 <svg
