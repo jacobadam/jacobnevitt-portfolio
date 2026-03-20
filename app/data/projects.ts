@@ -3,11 +3,36 @@ import { Project } from "../types/project.types";
 export const ProjectData: Project[] = [
   {
     id: 1,
+    name: "Animal Shepherd",
+    url: "https://www.animalshepherd.org/en",
+    imageUrl: "/animal-shepherd.webp",
+    description:
+      "A multilingual production website for an animal rescue organization, designed to support donations, engagement, and clear content delivery. Built with Next.js, Tailwind CSS, and next-intl for responsive performance, localization, and fast deployment.",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "next-intl",
+      "Vercel",
+    ],
+  },
+  {
+    id: 2,
+    name: "Article PDP Cross-Sell Feature",
+    url: "https://www.article.com/product/27327/aino-floor-lamp-rice",
+    imageUrl: "/article-cross-sell.webp",
+    description:
+      "A cross-sell component for a high-traffic e-commerce product page, displaying related items above the fold. Built with Vue and Contentful to support product discovery and improve conversion-focused UI.",
+    technologies: ["Vue.js", "Contentful"],
+  },
+
+  {
+    id: 3,
     name: "Mood Tracker App",
     url: "https://mood-tracker-app.netlify.app/",
     imageUrl: "/mood-tracker-app.webp",
     description:
-      "A React app with smooth, responsive SVG animation sequences that visually represent different mood states while maintaining seamless backend integration and real-time data updates.",
+      "A real-time mood tracking app with animated SVG visualizations that respond to user input. Built with a full-stack architecture supporting live updates and smooth, responsive UI interactions.",
     technologies: [
       "React",
       "TypeScript",
@@ -23,12 +48,21 @@ export const ProjectData: Project[] = [
     ],
   },
   {
-    id: 2,
+    id: 4,
+    name: "Freelance Website",
+    url: "https://www.greenhousewebdesigns.com/",
+    imageUrl: "/greenhouse-web-designs.webp",
+    description:
+      "A production website for my freelance business, designed to showcase services and generate client leads. Built with Next.js and Tailwind CSS, focusing on responsive design, performance, and smooth user interactions.",
+    technologies: ["Next.js", "JavaScript", "Tailwind CSS", "Motion", "Vercel"],
+  },
+  {
+    id: 5,
     name: "Ice Cream Inventory App",
     url: "",
     imageUrl: "/ice-cream-inventory-app.webp",
     description:
-      "A clean inventory management web app for an ice cream shop that enables adding, updating, and removing products while providing a dashboard with insights on best-selling flavors and low-stock alerts for smarter restocking decisions.",
+      "An inventory management system for tracking products, stock levels, and sales performance. Includes a dashboard with insights on best-selling items and low-stock alerts to support efficient restocking.",
     technologies: [
       "Angular",
       "TypeScript",
@@ -36,23 +70,5 @@ export const ProjectData: Project[] = [
       ".Net",
       "PostgreSQL",
     ],
-  },
-  {
-    id: 3,
-    name: "Freelance Website",
-    url: "https://www.greenhousewebdesigns.com/",
-    imageUrl: "/greenhouse-web-designs.webp",
-    description:
-      "A fast, responsive portfolio built with Next.js, Tailwind CSS, and Motion. Designed to showcase freelance services with smooth animations, modern UI, and optimized performance.",
-    technologies: ["Next.js", "JavaScript", "Tailwind CSS", "Motion", "Vercel"],
-  },
-  {
-    id: 4,
-    name: "Portfolio V1",
-    url: "",
-    imageUrl: "/portfolio-v1.webp",
-    description:
-      "Original portfolio built with Vue and SCSS, where I first explored the dual-column layout. Focused on clean structure, responsive design, and establishing the foundation for my current approach to layout and usability.",
-    technologies: ["Vue.js", "JavaScript", "SCSS", "tsParticles"],
   },
 ];
