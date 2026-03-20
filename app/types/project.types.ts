@@ -1,7 +1,7 @@
 export type Project = {
   id: number;
   name: string;
-  url?: string;
+  href: string;
   imageUrl: string;
   description: string;
   technologies: string[];
