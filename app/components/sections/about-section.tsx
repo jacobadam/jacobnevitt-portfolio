@@ -1,6 +1,6 @@
 export function AboutSection() {
   return (
-    <div className="mt-18 lg:px-4">
+    <div className="pt-4 mt-4 lg:mt-18 lg:px-4">
       <p className="mb-4">
         After graduating from an award-winning coding bootcamp, I worked as a
         frontend developer at{" "}
@@ -13,9 +13,8 @@ export function AboutSection() {
             SpareRoom
           </a>
         </span>
-        , the UK&apos;s largest property rental website, where I helped refine
-        and improve core user experiences. I later developed revenue-driving
-        features at{" "}
+        , the UK&apos;s largest property rental website, improving core user
+        experiences at scale. I later developed revenue-driving features at{" "}
         <span className="font-semibold text-secondary">
           <a
             rel="noopener noreferrer"
@@ -38,15 +37,8 @@ export function AboutSection() {
             Greenhouse Web Designs
           </a>
         </span>
-        , where I build fast, modern, and optimized websites for businesses that
-        want clean design, strong performance, and a solid technical foundation.
-      </p>
-      <p>
-        Sed nibh turpis, accumsan a sagittis tristique, ultrices et dolor.
-        Curabitur semper ultricies nibh. Maecenas felis ex, congue elementum mi
-        id, consectetur volutpat leo. Mauris ac mollis ex. Duis feugiat ligula
-        et nibh congue mollis. Morbi sit amet nibh non augue aliquet venenatis
-        id ut sapien.
+        , where I design and develop fast, modern websites focused on
+        performance, usability, and clean architecture.
       </p>
     </div>
   );
