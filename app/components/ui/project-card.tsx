@@ -13,7 +13,7 @@ export const ProjectCard = () => {
             </h2>
             <div className="flex flex-col-reverse lg:flex-row flex-start grow-2 gap-4 mb-2">
               <div className="relative w-40 lg:w-1/4 h-20">
-                <Image src={"/mood-tracker-app.webp"} alt="" fill />
+                <Image src={project.imageUrl} alt="" fill />
               </div>
               <div className="w-full lg:w-3/4">
                 <p className="font-medium">{project.description}</p>
