@@ -9,7 +9,7 @@ export function TechIcon({ name, iconPath }: TechIconProps) {
   return (
     <li className="flex flex-row items-center gap-2">
       <Image
-        className="group transition-all duration-500 hover:-translate-y-2"
+        className="group transition-all duration-500 hover:-translate-y-1"
         src={iconPath}
         alt=""
         width={30}
