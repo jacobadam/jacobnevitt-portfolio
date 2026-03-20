@@ -10,10 +10,10 @@ export const ExperienceCard = () => {
             <span className="text-xs font-semibold uppercase tracking-widest text-secondary">
               {experience.year}
             </span>
-            <h2 className="text-2xl font-bold tracking-tighter text-white">
+            <h2 className="text-lg lg:text-2xl font-bold tracking-tighter text-white">
               {experience.company}
             </h2>
-            <h3 className="text-lg font-medium text-primary-foreground">
+            <h3 className="text-base lg:text-lg font-medium text-primary-foreground">
               {experience.title}
             </h3>
             <p className="text-base text-secondary-foreground mb-4">
