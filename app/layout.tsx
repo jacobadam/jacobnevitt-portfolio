@@ -43,7 +43,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ClientWrapper>
-          <div className="grid grid-cols-1 lg:grid-cols-2 bg-primary text-primary-foreground px-4 lg:px-20 mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 text-primary-foreground px-4 lg:px-20 mx-auto">
             <SideNav navLinks={navLinks} />
             <main>{children}</main>
           </div>
