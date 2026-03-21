@@ -40,7 +40,7 @@ export const ProjectCard = () => {
                   />
                 </div>
                 <div className="w-full lg:w-3/4">
-                  <p className="text-lg">{project.description}</p>
+                  <p className="text-base">{project.description}</p>
                 </div>
               </div>
               <ul className="flex flex-row gap-2 flex-wrap">

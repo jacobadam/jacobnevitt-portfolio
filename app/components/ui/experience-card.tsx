@@ -7,16 +7,16 @@ export const ExperienceCard = () => {
       {ExperienceCardData.map((experience: Experience) => (
         <li key={experience.id}>
           <div className="flex flex-col p-4 mb-4 rounded-lg gap-1 scale-100 hover:scale-101 opacity-80 hover:opacity-100 bg-white/5 hover:bg-white/10 backdrop-blur-xl hover:backdrop-blur-md border border-white/5 hover:border-white/20">
-            <span className="text-sm font-semibold uppercase tracking-widest text-secondary">
+            <span className="text-xs font-semibold uppercase tracking-widest text-secondary">
               {experience.year}
             </span>
-            <h2 className="text-2xl font-bold tracking-tighter text-white">
+            <h2 className="text-xl font-bold tracking-tighter text-white">
               {experience.company}
             </h2>
-            <h3 className="text-xl font-semibold text-primary-foreground">
+            <h3 className="text-lg font-semibold text-primary-foreground">
               {experience.title}
             </h3>
-            <p className="text-lg text-secondary-foreground mb-4">
+            <p className="text-base text-secondary-foreground mb-4">
               {experience.description}
             </p>
             <ul className="flex flex-row gap-2 flex-wrap">

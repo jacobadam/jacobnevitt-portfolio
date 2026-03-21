@@ -33,9 +33,9 @@ export default function SideNav({ navLinks }: NavLinksProps) {
   return (
     <aside className="lg:sticky lg:h-screen top-0 md:px-4">
       <header className="flex flex-col max-w-2xl pt-4 lg:pb-12 mt-4 lg:my-18">
-        <h1 className="text-6xl font-bold mb-2 text-secondary">Jacob Nevitt</h1>
-        <h2 className="text-3xl mb-2 text-white">Software Developer</h2>
-        <h3 className="text-lg mb-4 text-secondary-foreground max-w-lg">
+        <h1 className="text-5xl font-bold mb-2 text-secondary">Jacob Nevitt</h1>
+        <h2 className="text-2xl mb-2 text-white">Software Developer</h2>
+        <h3 className="text-base mb-4 text-secondary-foreground max-w-lg">
           Frontend-focused developer building clean, responsive, high-performing
           web applications
         </h3>
@@ -86,7 +86,7 @@ export default function SideNav({ navLinks }: NavLinksProps) {
           href=""
           target="_blank"
           rel="noopener noreferrer"
-          className="group relative flex w-fit items-center gap-1 rounded-full border border-white/10 bg-white/5 px-3 py-3 font-extralight text-xs uppercase tracking-widest text-amber-500 transition-all hover:bg-white/10 hover:border-white/20 active:scale-95"
+          className="group relative flex w-fit items-center gap-1 rounded-full border border-white/10 bg-white/5 px-3 py-3 font-medium text-xs uppercase tracking-widest text-amber-500  transition-all hover:bg-white/10 hover:border-white/20 active:scale-95"
         >
           <span className="relative z-10">View CV</span>
           <svg
