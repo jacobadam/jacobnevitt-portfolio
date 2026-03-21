@@ -53,7 +53,6 @@ export const useActiveSectionObserver = (
       const activeSection = sectionLookupTableArray.filter(
         (section) => section.visible,
       );
-      console.log(activeSection);
 
       if (activeSection.length > 0) {
         const mostVisable = activeSection.reduce((prev, curr) =>
