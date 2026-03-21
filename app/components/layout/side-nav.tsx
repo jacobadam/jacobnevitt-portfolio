@@ -35,7 +35,7 @@ export default function SideNav({ navLinks }: NavLinksProps) {
       <header className="flex flex-col max-w-2xl pt-4 lg:pb-12 mt-4 lg:my-18">
         <h1 className="text-6xl font-bold mb-2 text-secondary">Jacob Nevitt</h1>
         <h2 className="text-3xl mb-2 text-white">Software Developer</h2>
-        <h3 className="text-xl mb-4 text-secondary-foreground max-w-lg">
+        <h3 className="text-lg mb-4 text-secondary-foreground max-w-lg">
           Frontend-focused developer building clean, responsive, high-performing
           web applications
         </h3>
