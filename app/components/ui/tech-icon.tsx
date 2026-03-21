@@ -15,7 +15,9 @@ export function TechIcon({ name, iconPath }: TechIconProps) {
         width={30}
         height={30}
       ></Image>
-      <span className="text-secondary-foreground font-semibold">{name}</span>
+      <span className="text-base text-primary-foreground font-semibold">
+        {name}
+      </span>
     </li>
   );
 }
