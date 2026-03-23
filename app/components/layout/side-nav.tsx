@@ -87,7 +87,7 @@ export default function SideNav({ navLinks }: NavLinksProps) {
           </a>
         </div>
         <a
-          href=""
+          href="/jacob-nevitt-cv.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="group relative flex w-fit items-center gap-1 rounded-full border border-white/10 bg-white/5 px-3 py-2.5 font-medium text-xs uppercase tracking-widest text-amber-500  transition-all hover:bg-white/10 hover:border-white/20 active:scale-95"
