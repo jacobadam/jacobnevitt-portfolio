@@ -59,7 +59,7 @@ export default function SideNav({ navLinks }: NavLinksProps) {
           </a>
 
           <a
-            href="mailto:yourname@gmail.com"
+            href="mailto:jacobnevitt@gmail.com"
             rel="noopener noreferrer"
             target="_blank"
             aria-label="Gmail"
