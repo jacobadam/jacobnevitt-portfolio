@@ -59,7 +59,7 @@ export const ProjectData: Project[] = [
   {
     id: 5,
     name: "Ice Cream Inventory App",
-    href: "",
+    href: "https://icecreaminventory.netlify.app/",
     imageUrl: "/ice-cream-inventory-app.webp",
     description:
       "An inventory management system for tracking products, stock levels, and sales performance. Includes a dashboard with insights on best-selling items and low-stock alerts to support efficient restocking.",
