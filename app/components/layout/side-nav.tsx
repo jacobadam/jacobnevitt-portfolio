@@ -33,7 +33,7 @@ export default function SideNav({ navLinks }: NavLinksProps) {
   return (
     <aside className="lg:sticky lg:h-screen top-0 px-4">
       <header className="flex flex-col max-w-2xl pt-4 lg:pb-12 lg:my-18 mb-10 lg:mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold mt-0 mb-2 text-secondary">
+        <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-2 text-secondary">
           Jacob Nevitt
         </h1>
         <h2 className="text-xl md:text-2xl mb-3 text-white">
