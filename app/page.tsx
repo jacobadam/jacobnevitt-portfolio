@@ -14,27 +14,27 @@ export default function Home() {
 
   return (
     <>
-      <section id="about" className="md:px-4 py-4 md:pb-8">
+      <section id="about" className="px-4 pt-2 pb-4 md:pb-8">
         <h1 className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-3 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0 font-semibold text-xl">
           About
         </h1>
         <AboutSection />
       </section>
 
-      <section id="projects" className="md:px-4 py-4 md:py-8">
-        <h1 className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0 font-semibold text-xl">
+      <section id="projects" className="px-4 mt-8 pt-2 pb-4 md:mt-16 md:pb-6">
+        <h1 className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-3 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0 font-semibold text-xl">
           Projects
         </h1>
         <ProjectsSection />
       </section>
-      <section id="experience" className="md:px-4 py-4 md:py-8">
-        <h1 className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0 font-semibold text-xl">
+      <section id="experience" className="px-4 mt-8 pt-2 pb-4 md:mt-16 md:pb-6">
+        <h1 className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-3 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0 font-semibold text-xl">
           Experience
         </h1>
         <ExperienceSection />
       </section>
-      <section id="tech-stack" className="md:px-4 py-4 md:py-8">
-        <h1 className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0 font-semibold text-xl">
+      <section id="tech-stack" className="px-4 mt-8 pt-2 pb-4 md:mt-16 md:pb-6">
+        <h1 className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-3 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0 font-semibold text-xl">
           Tech Stack
         </h1>
         <TechStackSection />
