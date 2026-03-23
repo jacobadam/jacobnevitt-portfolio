@@ -1,7 +1,7 @@
 export function AboutSection() {
   return (
     <div className="lg:mt-18 lg:px-4 text-base">
-      <p className="mb-4">
+      <p className="pt-2 pb-4">
         After graduating from an award-winning coding bootcamp, I worked as a
         frontend developer at{" "}
         <a
