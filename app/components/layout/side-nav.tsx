@@ -39,9 +39,9 @@ export default function SideNav({ navLinks }: NavLinksProps) {
         <h2 className="text-xl md:text-2xl mb-3 text-white">
           Software Developer
         </h2>
-        <h3 className="text-base mb-5 text-secondary-foreground max-w-lg">
-          Frontend-focused developer building clean, responsive, high-performing
-          web applications
+        <h3 className="text-base mb-5 text-secondary-foreground max-w-sm">
+          Frontend developer building clean, responsive, high-performance web
+          apps at scale
         </h3>
         <div className="flex flex-row gap-4 mb-5 lg:mb-8">
           <a
