@@ -22,7 +22,7 @@ export const ProjectData: Project[] = [
     href: "https://www.article.com/product/27327/aino-floor-lamp-rice",
     imageUrl: "/article-cross-sell.webp",
     description:
-      "Developed a cross-sell component for a high-traffic e-commerce product page, driving $30K in additional sales within the first month. Displayed related products above the fold to improve discovery and conversion. Built with Vue and Contentful.",
+      "Developed and A/B tested a cross-sell component for a high-traffic e-commerce product page, driving $30K in additional sales within the first month. Displayed related products above the fold to improve discovery and conversion. Built with Vue and Contentful.",
     technologies: ["Vue.js", "Contentful"],
   },
 
