@@ -69,6 +69,8 @@ export const ProjectData: Project[] = [
       "Tailwind CSS",
       ".NET",
       "PostgreSQL",
+      "Netlify",
+      "Heroku",
     ],
   },
 ];
