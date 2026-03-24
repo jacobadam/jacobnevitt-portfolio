@@ -7,7 +7,7 @@ export const ProjectData: Project[] = [
     href: "https://www.animalshepherd.org/en",
     imageUrl: "/animal-shepherd.webp",
     description:
-      "A multilingual production website for an animal rescue organization, designed to support donations, engagement, and clear content delivery. Built with Next.js, Tailwind CSS, and next-intl for responsive performance, localization, and fast deployment.",
+      "Designed and developed a multilingual production website for an animal rescue organization, improving donation flow, content clarity, and user engagement. Implemented localization and responsive performance using Next.js, Tailwind CSS, and next-intl.",
     technologies: [
       "Next.js",
       "TypeScript",
@@ -18,21 +18,21 @@ export const ProjectData: Project[] = [
   },
   {
     id: 2,
-    name: "Article PDP Cross-Sell Feature",
+    name: "Article Cross-Sell",
     href: "https://www.article.com/product/27327/aino-floor-lamp-rice",
     imageUrl: "/article-cross-sell.webp",
     description:
-      "A cross-sell component for a high-traffic e-commerce product page, displaying related items above the fold. Built with Vue and Contentful to support product discovery and improve conversion-focused UI.",
+      "Developed a cross-sell component for a high-traffic e-commerce product page, driving $30K in additional sales within the first month. Displayed related products above the fold to improve discovery and conversion. Built with Vue and Contentful.",
     technologies: ["Vue.js", "Contentful"],
   },
 
   {
     id: 3,
-    name: "Mood Tracker App",
+    name: "Mood Tracker",
     href: "https://mood-tracker-app.netlify.app/",
     imageUrl: "/mood-tracker-app.webp",
     description:
-      "A real-time mood tracking app with animated SVG visualizations that respond to user input. Built with a full-stack architecture supporting live updates and smooth, responsive UI interactions.",
+      "Built a real-time mood tracking application featuring custom-built SVG animations that dynamically and seamlessly transition between mood states based on user input. Implemented live updates and smooth UI interactions using a full-stack architecture with WebSockets.",
     technologies: [
       "React",
       "TypeScript",
@@ -49,25 +49,25 @@ export const ProjectData: Project[] = [
   },
   {
     id: 4,
-    name: "Freelance Website",
+    name: "Greenhouse Web Designs",
     href: "https://www.greenhousewebdesigns.com/",
     imageUrl: "/greenhouse-web-designs.webp",
     description:
-      "A production website for my freelance business, designed to showcase services and generate client leads. Built with Next.js and Tailwind CSS, focusing on responsive design, performance, and smooth user interactions.",
+      "Designed and developed the Greenhouse Web Designs company website to showcase services and drive client acquisition. Emphasized conversion-focused UI, performance, SEO, and responsive design. Built with Next.js and Tailwind CSS.",
     technologies: ["Next.js", "JavaScript", "Tailwind CSS", "Motion", "Vercel"],
   },
   {
     id: 5,
-    name: "Ice Cream Inventory App",
+    name: "Ice Cream Inventory",
     href: "https://icecreaminventory.netlify.app/",
     imageUrl: "/ice-cream-inventory-app.webp",
     description:
-      "An inventory management system for tracking products, stock levels, and sales performance. Includes a dashboard with insights on best-selling items and low-stock alerts to support efficient restocking.",
+      "Built a full-stack inventory management system to track products, stock levels, and sales performance. Implemented a dashboard with low-stock alerts and top-selling insights to support efficient restocking.",
     technologies: [
       "Angular",
       "TypeScript",
       "Tailwind CSS",
-      ".Net",
+      ".NET",
       "PostgreSQL",
     ],
   },
