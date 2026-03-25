@@ -23,7 +23,7 @@ export const ProjectData: Project[] = [
     imageUrl: "/article-cross-sell.webp",
     description:
       "Developed and A/B tested a cross-sell component for a high-traffic e-commerce product page, driving $30K in additional sales within the first month. Displayed related products above the fold to improve discovery and conversion. Built with Vue and Contentful.",
-    technologies: ["Vue.js", "Contentful"],
+    technologies: ["Vue.js", "Contentful", "GraphQL", "Algolia"],
   },
 
   {
