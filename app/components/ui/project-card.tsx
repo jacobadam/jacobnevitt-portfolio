@@ -9,9 +9,9 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <li>
       <a href={project.href} rel="noopener noreferrer" target="_blank">
-        <div className="group flex flex-col p-4 mb-4 rounded-lg gap-3 scale-100 hover:scale-101 opacity-80 hover:opacity-100 bg-white/5 hover:bg-white/10 backdrop-blur-xl hover:backdrop-blur-md border border-white/5 hover:border-white/20">
-          <div className="group text-white relative flex w-fit items-center gap-1 transition-all group-hover:text-secondary lg:mb-2">
-            <h2 className="text-lg lg:text-xl font-bold tracking-wide">
+        <div className="group flex flex-col p-4 mb-4 rounded-lg scale-100 hover:scale-101 opacity-80 hover:opacity-100 bg-white/5 hover:bg-white/10 backdrop-blur-xl hover:backdrop-blur-md border border-white/5 hover:border-white/20">
+          <div className="group text-white relative flex w-fit items-center gap-1 transition-all group-hover:text-secondary">
+            <h2 className="text-base lg:text-lg font-bold tracking-wide">
               {project.name}
             </h2>
             <svg
@@ -26,19 +26,25 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
               <path d="M7 17L17 7M17 7H7M17 7V17" />
             </svg>
           </div>
-          <div className="flex flex-col-reverse lg:flex-row flex-start gap-4 items-start mb-2">
-            <div className="relative w-40 lg:w-1/4 h-28">
-              <Image
-                src={project.imageUrl}
-                alt=""
-                fill
-                className="object-cover rounded-md"
-              />
+
+          <div className="flex flex-col-reverse xl:flex-row gap-1 xl:gap-4 items-start mt-1 mb-2">
+            <div className="w-full xl:w-2/5 flex justify-start">
+              <div className="relative w-40 sm:w-48 md:w-56 xl:w-full aspect-video">
+                <Image
+                  src={project.imageUrl}
+                  alt={`${project.name} screenshot`}
+                  fill
+                  className="object-contain rounded-md"
+                  sizes="(min-width: 1280px) 40vw, 224px"
+                />
+              </div>
             </div>
-            <div className="w-full lg:w-3/4">
-              <p className="text-base">{project.description}</p>
+
+            <div className="w-full xl:w-3/5 2xl:mt-1">
+              <p className="text-sm">{project.description}</p>
             </div>
           </div>
+
           <ul className="flex flex-row gap-2 flex-wrap">
             {project.technologies.map((tech) => (
               <li
