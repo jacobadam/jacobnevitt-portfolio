@@ -40,7 +40,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
               </div>
             </div>
 
-            <div className="w-full xl:w-3/5 2xl:mt-1">
+            <div className="w-full xl:w-3/5 xl:self-center">
               <p className="text-sm">{project.description}</p>
             </div>
           </div>
