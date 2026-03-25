@@ -41,7 +41,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
             </div>
 
             <div className="w-full xl:w-3/5 xl:self-center">
-              <p className="text-sm">{project.description}</p>
+              <p className="text-sm 2xl:text-base">{project.description}</p>
             </div>
           </div>
 
