@@ -23,6 +23,15 @@ export const metadata: Metadata = {
   icons: {
     icon: "/j-logo.png",
   },
+  openGraph: {
+    title: "Jacob Nevitt",
+    description:
+      "Frontend-focused software developer with 5+ years' experience building high-performance web applications using React, Next.js, TypeScript, and Node.js.",
+    url: "https://www.jacobnevitt.com/",
+    images: ["/j-logo-og.png"],
+    locale: "en_GB",
+    type: "website",
+  },
 };
 
 const navLinks: navLink[] = [
