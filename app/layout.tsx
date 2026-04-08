@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     icon: "/j-logo.png",
   },
   openGraph: {
-    title: "Jacob Nevitt",
+    title: "Jacob Nevitt | Frontend Software Developer",
     description:
       "Frontend-focused software developer with 5+ years' experience building high-performance web applications using React, Next.js, TypeScript, and Node.js.",
     url: "https://www.jacobnevitt.com/",
