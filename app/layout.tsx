@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Jacob Nevitt",
   description:
-    "Personal portfolio of Jacob Nevitt, a software developer showcasing projects, technical skills, and experience in building modern web applications.",
+    "Frontend-focused software developer with 5+ years' experience building high-performance web applications using React, Next.js, TypeScript, and Node.js.",
   icons: {
     icon: "/j-logo.png",
   },
