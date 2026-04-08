@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   description:
     "Personal portfolio of Jacob Nevitt, a software developer showcasing projects, technical skills, and experience in building modern web applications.",
   icons: {
-    icon: "/j-logo.ico",
+    icon: "/j-logo.png",
   },
 };
 
