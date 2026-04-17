@@ -7,7 +7,7 @@ export const ProjectData: Project[] = [
     href: "https://www.animalshepherd.org/en",
     imageUrl: "/animal-shepherd.webp",
     description:
-      "Designed and developed a multilingual production website for an animal rescue organization, improving donation flow, content clarity, and user engagement. Implemented localization and responsive performance using Next.js, Tailwind CSS, and next-intl.",
+      "Designed and developed a multilingual production website for an animal rescue organisation, improving donation flow, content clarity, and user engagement. Implemented localisation and responsive performance using Next.js, Tailwind CSS, and next-intl.",
     technologies: [
       "Next.js",
       "TypeScript",
@@ -53,7 +53,7 @@ export const ProjectData: Project[] = [
     href: "https://www.greenhousewebdesigns.com/",
     imageUrl: "/greenhouse-web-designs.webp",
     description:
-      "Designed and developed the Greenhouse Web Designs company website to showcase services and drive client acquisition. Emphasized conversion-focused UI, performance, SEO, and responsive design. Built with Next.js and Tailwind CSS.",
+      "Designed and developed the Greenhouse Web Designs company website to showcase services and drive client acquisition. Emphasised conversion-focused UI, performance, SEO, and responsive design. Built with Next.js and Tailwind CSS.",
     technologies: ["Next.js", "JavaScript", "Tailwind CSS", "Motion", "Vercel"],
   },
   {

@@ -7,7 +7,7 @@ export const ExperienceCardData: Experience[] = [
     title: "Founding Developer",
     year: "2024-Present",
     description:
-      "Founded and lead development of high-performance, responsive web applications for startups and small businesses. Specialized in React, Vue.js, Next.js, Angular, Node.js, and Tailwind CSS, building scalable and reusable UI components. Delivered API integrations, SEO optimization, and accessibility-focused builds achieving top Lighthouse scores. Managed full frontend architecture and deployment via Vercel while working directly with clients.",
+      "Founded and lead development of high-performance, responsive web applications for startups and small businesses. Specialised in React, Vue.js, Next.js, Angular, Node.js, and Tailwind CSS, building scalable and reusable UI components. Delivered API integrations, SEO optimisation, and accessibility-focused builds achieving top Lighthouse scores. Managed full frontend architecture and deployment via Vercel while working directly with clients.",
     technologies: ["Next.js", "React", "Vue.js", "TypeScript", "Vercel"],
   },
   {
@@ -16,7 +16,7 @@ export const ExperienceCardData: Experience[] = [
     title: "Software Developer",
     year: "2021-2024",
     description:
-      "Frontend developer on a high-traffic e-commerce platform serving millions of users. Built and optimized features using Vue.js, React, and Next.js, improving performance and user experience. Delivered measurable impact through conversion-focused UI development and performance optimization. Worked in a fast-paced product team shipping scalable, production-ready frontend features.",
+      "Frontend developer on a high-traffic e-commerce platform serving millions of users. Built and optimised features using Vue.js, React, and Next.js, improving performance and user experience. Delivered measurable impact through conversion-focused UI development and performance optimisation. Worked in a fast-paced product team shipping scalable, production-ready frontend features.",
     technologies: ["Vue.js", "React", "Next.js", "GraphQL", "Contentful"],
   },
   {
