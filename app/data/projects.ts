@@ -68,6 +68,7 @@ export const ProjectData: Project[] = [
       "TypeScript",
       "Tailwind CSS",
       "Chart.js",
+      "C#",
       ".NET",
       "PostgreSQL",
       "Netlify",
