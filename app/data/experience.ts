@@ -21,7 +21,7 @@ export const ExperienceCardData: Experience[] = [
   },
   {
     id: 3,
-    company: "Spareroom",
+    company: "SpareRoom",
     title: "Software Developer",
     year: "2019-2020",
     description:
