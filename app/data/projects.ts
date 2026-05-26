@@ -32,17 +32,19 @@ export const ProjectData: Project[] = [
     href: "https://mood-tracker-app.netlify.app/",
     imageUrl: "/mood-tracker-app.webp",
     description:
-      "Built a real-time mood tracking application featuring custom-built SVG animations that dynamically and seamlessly transition between mood states based on user input. Implemented live updates and smooth UI interactions using a full-stack architecture with WebSockets.",
+      "Built a real-time mood tracking application featuring custom SVG and Lottie animations that dynamically transition between mood states based on user input. Implemented live updates and interactive UI behaviour using a full-stack architecture with WebSockets and REST APIs.",
+
     technologies: [
       "React",
+      "Vite",
       "TypeScript",
       "Tailwind CSS",
       "Motion",
       "GSAP",
+      "Socket.IO",
       "Node.js",
       "Express.js",
       "PostgreSQL",
-      "Socket.IO",
       "Netlify",
       "Heroku",
     ],
