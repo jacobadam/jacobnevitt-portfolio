@@ -19,14 +19,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Jacob Nevitt",
   description:
-    "Frontend-focused software developer with 5+ years' experience building high-performance web applications using React, Next.js, TypeScript, and Node.js.",
+    "Software developer developer with more than six years of experience building high-performance web applications using React, Next.js, TypeScript, and Node.js.",
   icons: {
     icon: "/j-logo.png",
   },
   openGraph: {
-    title: "Jacob Nevitt | Frontend Software Developer",
+    title: "Jacob Nevitt | Software Developer",
     description:
-      "Frontend-focused software developer with 5+ years' experience building high-performance web applications using React, Next.js, TypeScript, and Node.js.",
+      "Software developer developer with more than six years of experience building high-performance web applications using React, Next.js, TypeScript, and Node.js.",
     url: "https://www.jacobnevitt.com/",
     images: ["/j-logo-og.png"],
     locale: "en_GB",

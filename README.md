@@ -1,6 +1,6 @@
 # Jacob Nevitt Portfolio
 
-Personal portfolio website built to showcase projects, skills, and experience as a frontend / full-stack developer.
+Personal portfolio website built to showcase projects, skills, and experience as a software developer.
 
 ## Live Site
 

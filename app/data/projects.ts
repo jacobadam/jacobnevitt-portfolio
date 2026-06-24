@@ -28,7 +28,7 @@ export const ProjectData: Project[] = [
 
   {
     id: 3,
-    name: "Mood Tracker",
+    name: "Mood Tracker App",
     href: "https://mood-tracker-app.netlify.app/",
     imageUrl: "/mood-tracker-app.webp",
     description:
@@ -60,7 +60,7 @@ export const ProjectData: Project[] = [
   },
   {
     id: 5,
-    name: "Ice Cream Inventory",
+    name: "Ice Cream Inventory App",
     href: "https://icecreaminventory.netlify.app/",
     imageUrl: "/ice-cream-inventory-app.webp",
     description:
