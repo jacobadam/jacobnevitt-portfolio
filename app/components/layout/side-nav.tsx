@@ -40,8 +40,8 @@ export default function SideNav({ navLinks }: NavLinksProps) {
           Software Developer
         </h2>
         <h3 className="text-base mb-5 text-secondary-foreground max-w-sm">
-          Frontend developer building clean, responsive, high-performance web
-          apps at scale
+          Full stack developer building scalable, responsive web applications
+          focused on performance and user experience.
         </h3>
         <div className="flex flex-row gap-4 mb-5 lg:mb-8">
           <a

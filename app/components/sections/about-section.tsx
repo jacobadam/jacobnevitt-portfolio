@@ -2,8 +2,7 @@ export function AboutSection() {
   return (
     <div className="lg:mt-18 lg:px-4 text-base">
       <p className="py-4">
-        After graduating from an award-winning coding bootcamp, I worked as a
-        frontend developer at{" "}
+        Worked as a software developer at{" "}
         <a
           rel="noopener noreferrer"
           target="_blank"
@@ -25,7 +24,7 @@ export function AboutSection() {
           </svg>
         </a>
         , the UK&apos;s largest property rental website, improving core user
-        experiences at scale. I later developed revenue-driving features at{" "}
+        experiences at scale. Developed revenue-driving features at{" "}
         <a
           rel="noopener noreferrer"
           target="_blank"
@@ -50,14 +49,14 @@ export function AboutSection() {
       </p>
 
       <p className="mb-4">
-        Today I run{" "}
+        Today I work as a software developer at{" "}
         <a
           rel="noopener noreferrer"
           target="_blank"
-          href="https://www.greenhousewebdesigns.com/"
+          href="https://www.sicon.co.uk/"
           className="inline-flex items-center gap-1 font-medium text-secondary group"
         >
-          Greenhouse Web Designs
+          Sicon
           <svg
             viewBox="0 0 24 24"
             fill="none"
@@ -71,8 +70,8 @@ export function AboutSection() {
             <path d="M7 17L17 7M17 7H7M17 7V17" />
           </svg>
         </a>
-        , where I design and develop fast, modern websites focused on
-        performance, usability, and clean architecture.
+        , building ERP and cloud-based business systems that support finance,
+        operations, and workflow management.
       </p>
     </div>
   );

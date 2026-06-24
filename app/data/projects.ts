@@ -18,7 +18,7 @@ export const ProjectData: Project[] = [
   },
   {
     id: 2,
-    name: "Article Cross-Sell",
+    name: "Product Cross-Sell",
     href: "https://www.article.com/product/27327/aino-floor-lamp-rice",
     imageUrl: "/article-cross-sell.webp",
     description:

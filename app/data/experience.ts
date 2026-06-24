@@ -3,15 +3,32 @@ import { Experience } from "../types/experience.types";
 export const ExperienceCardData: Experience[] = [
   {
     id: 1,
-    company: "Greenhouse Web Designs",
-    title: "Founding Developer",
-    year: "2024-Present",
+    company: "Sicon",
+    title: "Software Developer",
+    year: "2026-Present",
     description:
-      "Founded and lead development of high-performance, responsive web applications for startups and small businesses. Specialised in React, Vue.js, Next.js, Angular, Node.js, and Tailwind CSS, building scalable and reusable UI components. Delivered API integrations, SEO optimisation, and accessibility-focused builds achieving top Lighthouse scores. Managed full frontend architecture and deployment via Vercel while working directly with clients.",
-    technologies: ["Next.js", "React", "Vue.js", "TypeScript", "Vercel"],
+      "Building React front-end features using TypeScript within a large-scale ERP system, with reusable components and structured state management. Contributing to C#/.NET backend services by building and integrating APIs that support core business workflows. Delivering full-stack features in an Agile team, including implementation, refinement, and production support, while refactoring and improving performance across the codebase.",
+    technologies: ["React", "TypeScript", "Vite", "C#", ".NET", "Vitest"],
   },
   {
     id: 2,
+    company: "Greenhouse Web Designs",
+    title: "Founder & Software Developer",
+    year: "2024-2026",
+    description:
+      "Led development of high-performance, responsive web applications for startups and small businesses across industries including non-profit and beauty. Specialised in React, Next.js, Vue.js, Node.js, and Tailwind CSS, building scalable and reusable UI components. Delivered API integrations, SEO optimisation, and accessibility-focused builds achieving top Lighthouse scores. Managed full frontend architecture and deployment while working directly with clients.",
+    technologies: [
+      "Next.js",
+      "React",
+      "Vue.js",
+      "TypeScript",
+      "Vite",
+      "next-intl",
+      "Vercel",
+    ],
+  },
+  {
+    id: 3,
     company: "Article",
     title: "Software Developer",
     year: "2021-2024",
@@ -20,7 +37,7 @@ export const ExperienceCardData: Experience[] = [
     technologies: ["Vue.js", "React", "Next.js", "GraphQL", "Contentful"],
   },
   {
-    id: 3,
+    id: 4,
     company: "SpareRoom",
     title: "Software Developer",
     year: "2019-2020",
