@@ -40,7 +40,7 @@ export default function SideNav({ navLinks }: NavLinksProps) {
           Software Developer
         </h2>
         <h3 className="text-base mb-5 text-secondary-foreground max-w-sm">
-          Full stack developer building scalable, responsive web applications
+          Software Developer building scalable, responsive web applications
           focused on performance and user experience.
         </h3>
         <div className="flex flex-row gap-4 mb-5 lg:mb-8">
