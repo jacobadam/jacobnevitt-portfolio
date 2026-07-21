@@ -20,7 +20,7 @@ export const useActiveSectionObserver = (
 
     const observerOptions = {
       root: null,
-      rootMargin: "-25% 0px -30% 0px",
+      rootMargin: "-20% 0px -30% 0px",
       threshold: [0, 0.25, 0.5, 0.75, 1],
     };
 
