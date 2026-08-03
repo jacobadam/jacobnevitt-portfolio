@@ -11,7 +11,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
       <a href={project.href} rel="noopener noreferrer" target="_blank">
         <div className="group flex flex-col p-4 mb-4 rounded-lg scale-100 hover:scale-101 opacity-80 hover:opacity-100 bg-white/5 hover:bg-white/10 backdrop-blur-xl hover:backdrop-blur-md border border-white/5 hover:border-white/20">
           <div className="group text-white relative flex w-fit items-center gap-1 transition-all group-hover:text-secondary">
-            <h2 className="text-base lg:text-lg font-bold tracking-wide">
+            <h2 className="text-base lg:text-lg 2xl:text-2xl font-bold tracking-wide">
               {project.name}
             </h2>
             <svg
@@ -41,14 +41,16 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
             </div>
 
             <div className="w-full xl:w-3/5 xl:self-center">
-              <p className="text-sm 2xl:text-base">{project.description}</p>
+              <p className="text-sm 2xl:text-base 3xl:text-xl">
+                {project.description}
+              </p>
             </div>
           </div>
 
           <ul className="flex flex-row gap-2 flex-wrap">
             {project.technologies.map((tech) => (
               <li
-                className="text-sm backdrop-blur-md text-amber-500 bg-secondary-foreground/10 rounded-2xl py-0.5 px-2"
+                className="text-sm 3xl:text-base backdrop-blur-md text-amber-500 bg-secondary-foreground/10 rounded-2xl py-0.5 px-2"
                 key={tech}
               >
                 {tech}

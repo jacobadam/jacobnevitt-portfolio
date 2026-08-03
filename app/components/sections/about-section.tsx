@@ -1,8 +1,8 @@
 export function AboutSection() {
   return (
-    <div className="lg:mt-18 lg:px-4 text-base">
+    <div className="lg:mt-18 lg:px-4 text-base 2xl:text-xl">
       <p className="py-4">
-        Worked as a software developer at{" "}
+        I&apos;ve worked as a software developer at{" "}
         <a
           rel="noopener noreferrer"
           target="_blank"
@@ -23,8 +23,9 @@ export function AboutSection() {
             <path d="M7 17L17 7M17 7H7M17 7V17" />
           </svg>
         </a>
-        , the UK&apos;s largest property rental website, improving core user
-        experiences at scale. Developed revenue-driving features at{" "}
+        , the UK&apos;s largest property rental website, where I helped improve
+        core user experiences at scale. I also developed revenue-driving
+        features at{" "}
         <a
           rel="noopener noreferrer"
           target="_blank"
@@ -49,7 +50,7 @@ export function AboutSection() {
       </p>
 
       <p className="mb-4">
-        Today I work as a software developer at{" "}
+        Today, I work at{" "}
         <a
           rel="noopener noreferrer"
           target="_blank"
@@ -71,7 +72,9 @@ export function AboutSection() {
           </svg>
         </a>
         , building ERP and cloud-based business systems that support finance,
-        operations, and workflow management.
+        operations, and workflow management. I&apos;m passionate about improving
+        user experiences through thoughtful design, clean implementation, and
+        software that helps people work more effectively.
       </p>
     </div>
   );
