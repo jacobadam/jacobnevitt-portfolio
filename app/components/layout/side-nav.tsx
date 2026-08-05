@@ -32,14 +32,14 @@ export default function SideNav({ navLinks }: NavLinksProps) {
 
   return (
     <aside className="lg:sticky lg:h-screen top-0 px-4">
-      <header className="flex flex-col max-w-2xl pt-4 lg:pb-12 lg:my-18 mb-10 lg:mb-16">
+      <header className="flex flex-col max-w-2xl 3xl:max-w-5xl pt-4 lg:pb-12 lg:my-18 mb-10 lg:mb-16">
         <h1 className="text-4xl md:text-5xl 2xl:text-6xl 3xl:text-7xl font-bold mt-2 mb-2 text-secondary">
           Jacob Nevitt
         </h1>
         <h2 className="text-xl md:text-2xl 2xl:text-4xl mb-3 text-white">
           Software Developer
         </h2>
-        <p className="text-base 2xl:text-lg 3xl:text-2xl mb-5 text-secondary-foreground max-w-md">
+        <p className="text-base 2xl:text-lg 3xl:text-2xl mb-5 text-secondary-foreground max-w-md 3xl:max-w-xl">
           I build scalable, responsive web applications with a focus on clean
           architecture, performance, and user experience.
         </p>
