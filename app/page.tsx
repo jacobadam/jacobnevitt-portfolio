@@ -1,6 +1,6 @@
 "use client";
 
-import { useActiveSectionObserver } from "@/app/hooks/use-active-section-observer";
+import { useActiveSection } from "@/app/hooks/use-active-section";
 import { useClientWrapper } from "@/app/components/provider/client-wrapper";
 import { AboutSection } from "@/app/components/sections/about-section";
 import { ProjectsSection } from "@/app/components/sections/projects-section";
@@ -10,7 +10,7 @@ import { TechStackSection } from "@/app/components/sections/tech-stack-section";
 export default function Home() {
   const { setActiveSection } = useClientWrapper();
 
-  useActiveSectionObserver(setActiveSection);
+  useActiveSection(setActiveSection);
 
   return (
     <>
