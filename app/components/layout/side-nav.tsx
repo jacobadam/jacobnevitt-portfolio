@@ -39,10 +39,10 @@ export default function SideNav({ navLinks }: NavLinksProps) {
         <h2 className="text-xl md:text-2xl 2xl:text-4xl mb-3 text-white">
           Software Developer
         </h2>
-        <h3 className="text-base 2xl:text-lg 3xl:text-2xl mb-5 text-secondary-foreground max-w-md">
-          Software Developer building scalable, responsive web applications
-          focused on performance and user experience.
-        </h3>
+        <p className="text-base 2xl:text-lg 3xl:text-2xl mb-5 text-secondary-foreground max-w-md">
+          I build scalable, responsive web applications with a focus on clean
+          architecture, performance, and user experience.
+        </p>
         <div className="flex flex-row gap-4 mb-5 lg:mb-8">
           <a
             href="https://github.com/jacobadam"
