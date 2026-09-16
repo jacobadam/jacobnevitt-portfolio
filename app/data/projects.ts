@@ -58,23 +58,4 @@ export const ProjectData: Project[] = [
       "Designed and developed the Greenhouse Web Designs company website to showcase services and drive client acquisition. Emphasised conversion-focused UI, performance, SEO, and responsive design. Built with Next.js and Tailwind CSS.",
     technologies: ["Next.js", "JavaScript", "Tailwind CSS", "Motion", "Vercel"],
   },
-  {
-    id: 5,
-    name: "Ice Cream Inventory App",
-    href: "https://icecreaminventory.netlify.app/",
-    imageUrl: "/ice-cream-inventory-app.webp",
-    description:
-      "Built a full-stack inventory management system to track products, stock levels, and sales performance. Implemented a dashboard with low-stock alerts and top-selling insights to support efficient restocking.",
-    technologies: [
-      "Angular",
-      "TypeScript",
-      "Tailwind CSS",
-      "Chart.js",
-      "C#",
-      ".NET",
-      "PostgreSQL",
-      "Netlify",
-      "Heroku",
-    ],
-  },
 ];
