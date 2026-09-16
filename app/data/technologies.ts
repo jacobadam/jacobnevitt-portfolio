@@ -12,13 +12,14 @@ export const TechnologiesCardData: TechnologyGroup[] = [
       { name: "Angular", icon: "/angular-logo.svg" },
       { name: "Tailwind CSS", icon: "/tailwindcss-logo.svg" },
       { name: "Motion", icon: "/motion-logo.svg" },
-      { name: "GSAP", icon: "/gsap-logo.svg" },
     ],
   },
   {
     title: "Backend",
     technologies: [
       { name: "Node.js", icon: "/nodejs-logo.svg" },
+      { name: "C#", icon: "/csharp-logo.svg" },
+      { name: ".NET", icon: "/dotnet-logo.svg" },
       { name: "Express.js", icon: "/expressjs-logo.svg" },
       { name: "GraphQL", icon: "/graphql-logo.svg" },
       { name: "PostgreSQL", icon: "/postgresql-logo.svg" },
@@ -28,16 +29,16 @@ export const TechnologiesCardData: TechnologyGroup[] = [
   {
     title: "Tools & Platforms",
     technologies: [
-      { name: "Vite", icon: "/vite-logo.svg" },
-      { name: "AWS", icon: "/aws-logo.svg" },
-      { name: "Docker", icon: "/docker-logo.svg" },
       { name: "Git", icon: "/git-logo.svg" },
-      { name: "Netlify", icon: "/netlify-logo.svg" },
-      { name: "Vercel", icon: "/vercel-logo.svg" },
+      { name: "Docker", icon: "/docker-logo.svg" },
+      { name: "AWS", icon: "/aws-logo.svg" },
+      { name: "Vite", icon: "/vite-logo.svg" },
       { name: "Contentful", icon: "/contentful-logo.svg" },
       { name: "Algolia", icon: "/algolia-logo.svg" },
       { name: "Jest", icon: "/jest-logo.svg" },
       { name: "Vitest", icon: "/vitest-logo.svg" },
+      { name: "Vercel", icon: "/vercel-logo.svg" },
+      { name: "Netlify", icon: "/netlify-logo.svg" },
     ],
   },
 ];
